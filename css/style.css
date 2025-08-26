@@ -40,11 +40,16 @@ body{
 .presentacion__contenido__texto{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 .presentacion__enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .presentacion__enlaces__link{
@@ -62,5 +67,6 @@ body{
 
 .imagen {
     height: 500px;
-    width: 488px;
+    width: 400px;
+    border-radius: 2%;
 }
