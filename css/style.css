@@ -80,3 +80,7 @@ body{
     border: 2PX solid #22D4FD;
 }
 
+.presentacion__enlaces__link:hover{
+    background-color: #272727; 
+}
+
